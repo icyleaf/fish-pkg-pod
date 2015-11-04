@@ -1,5 +1,5 @@
-function init -a path --on-event init_pod
+function init --on-event init_pod
   if not available pod
-    echo "Please install 'pod' first!" ; return 1
+    echo "Please install 'pod' first!"
   end
 end
